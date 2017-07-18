@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		52FBC7561F1E2AA20016FD03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FBC7551F1E2AA20016FD03 /* main.m */; };
+		52FBC75E1F1E2C0B0016FD03 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FBC75D1F1E2C0B0016FD03 /* Car.m */; };
+		52FBC7611F1E2D3F0016FD03 /* Maruthi.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FBC7601F1E2D3F0016FD03 /* Maruthi.m */; };
+		52FBC7641F1E2E4C0016FD03 /* Benz.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FBC7631F1E2E4C0016FD03 /* Benz.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		52FBC7521F1E2AA20016FD03 /* SubClassExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SubClassExample; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FBC7551F1E2AA20016FD03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52FBC75C1F1E2C0B0016FD03 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		52FBC75D1F1E2C0B0016FD03 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		52FBC75F1F1E2D3F0016FD03 /* Maruthi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Maruthi.h; sourceTree = "<group>"; };
+		52FBC7601F1E2D3F0016FD03 /* Maruthi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Maruthi.m; sourceTree = "<group>"; };
+		52FBC7621F1E2E4C0016FD03 /* Benz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Benz.h; sourceTree = "<group>"; };
+		52FBC7631F1E2E4C0016FD03 /* Benz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Benz.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				52FBC7551F1E2AA20016FD03 /* main.m */,
+				52FBC7621F1E2E4C0016FD03 /* Benz.h */,
+				52FBC7631F1E2E4C0016FD03 /* Benz.m */,
+				52FBC75F1F1E2D3F0016FD03 /* Maruthi.h */,
+				52FBC7601F1E2D3F0016FD03 /* Maruthi.m */,
+				52FBC75C1F1E2C0B0016FD03 /* Car.h */,
+				52FBC75D1F1E2C0B0016FD03 /* Car.m */,
 			);
 			path = SubClassExample;
 			sourceTree = "<group>";
@@ -119,6 +134,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52FBC7641F1E2E4C0016FD03 /* Benz.m in Sources */,
+				52FBC75E1F1E2C0B0016FD03 /* Car.m in Sources */,
+				52FBC7611F1E2D3F0016FD03 /* Maruthi.m in Sources */,
 				52FBC7561F1E2AA20016FD03 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
